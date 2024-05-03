@@ -3,6 +3,7 @@ import Card from "@/components/Card";
 import Header from "@/components/Header";
 import "../app/globals.css";
 import Sidebar from "@/components/Sidebar";
+import TransactionCard from "@/components/TransactionCard";
 
 export default function Dashboard() {
   return (
@@ -35,6 +36,12 @@ export default function Dashboard() {
           icon="godown.png"
           increasePercent="2"
         />
+      </div>
+      <div className="mt-8 flex flex-col gap-3">
+        <TransactionCard />
+        <TransactionCard />
+        <TransactionCard />
+        <TransactionCard />
       </div>
     </>
   );

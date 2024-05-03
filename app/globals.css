@@ -7,10 +7,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: var(--font-pt-sans);
 }
 body{
   background-color: #F6F6F9;
   min-height: 100vh;
+  /* overflow: hidden; */
 }
 
 .main-blue {
